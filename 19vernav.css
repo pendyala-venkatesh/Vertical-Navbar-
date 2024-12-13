@@ -1,0 +1,38 @@
+#nav
+{
+    width: 20%;
+    height:100%;
+    background-color:lightcoral;
+    float: left;
+    position: sticky;
+    top:1px;
+}
+body{
+    margin: 0px;
+}
+#container
+{
+    font-size: 50px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: fantasy;
+    display: block;
+    justify-content: space-evenly;
+
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover  
+{
+    color: green;
+} 
+.items:hover
+{
+    font-size: 50px;
+    list-style-type: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+ 
